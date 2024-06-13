@@ -11,7 +11,7 @@
  * Requires PHP: 7.3 
 */  
 
-define( 'NKG_WEBHOOK_URL', 'https://alloxesinfotech.com/nimesh-gorfad/woo_webhook.php');
+define( 'NKG_WEBHOOK_URL', 'YOUR_WEB_HOOK_URL');
 
 add_action( 'woocommerce_payment_complete', 'nkg_so_payment_complete' ); 
 //add_action( 'woocommerce_update_order', 'nkg_so_payment_complete', 10, 1 );
